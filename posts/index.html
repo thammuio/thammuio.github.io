@@ -5,6 +5,11 @@ description: Technology Articles.
 background: '/img/bg-post.jpg'
 ---
 
+<!-- HTML elements for search -->
+<input type="text" id="search-input" placeholder="Search blog posts..">
+<ul id="results-container"></ul>
+
+
 {% for post in paginator.posts %}
 
   <article class="post-preview">
